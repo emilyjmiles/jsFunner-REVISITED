@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/ --reporter dot --require mocha-clean; ./node_modules/.bin/eslint prototypes/index.js",
-    "testPrototypes": "./node_modules/mocha/bin/mocha test/prototype-test.js --reporter dot --require mocha-clean; ./node_modules/.bin/eslint prototypes/index.js"
+    "test": "mocha --require mocha-clean",
+    "testPrototypes": "./node_modules/mocha/bin/mocha --recursive test/*-test.js --require mocha-clean"
   },
   "author": "",
   "license": "ISC",

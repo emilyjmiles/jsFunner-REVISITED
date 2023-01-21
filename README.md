@@ -1,8 +1,8 @@
 # jsFunner
 
-jsFun but make it MORE fun!   
+jsFun but make it MORE fun!
 
-This repo is specifically designed for repeaters to continue getting reps with prototypes with some brand new exercises. 
+This repo is specifically designed for repeaters to continue getting reps with prototypes with some brand new exercises.
 
 ## Getting Started
 
@@ -12,9 +12,13 @@ Check out [this video](https://vimeo.com/turing/review/388545928/baac6f5a2d) if 
 
 ## Running the Tests
 
-To run all tests 
+To run all tests
 
-`npm test`
+`npm run testPrototypes`
+
+To run test for just one problem set
+
+`npm test test/${file name}.js`
 
 ## Pulling Down Repo Changes
 
