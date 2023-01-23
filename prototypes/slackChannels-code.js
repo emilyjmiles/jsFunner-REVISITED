@@ -41,3 +41,5 @@ const slackChannelPrompts = {
 
   }
 };
+
+module.exports = slackChannelPrompts;
